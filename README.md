@@ -1,8 +1,9 @@
 # sfb-eureka-discovery
 
 
-Algumas notas importantes sobre Eureka: Um aplicativo registrado em Eureka é conhecido
-como instância de Eureka. Cada instância de Eureka também é um Cliente Eureka, pois
+#### Algumas notas importantes sobre Eureka: 
+
+Um aplicativo registrado em Eureka é conhecido como instância de Eureka. Cada instância de Eureka também é um Cliente Eureka, pois
 pode buscar os detalhes de outras instâncias de Eureka também.
 
 Se estamos usando o servidor Eureka no modo autônomo, ou seja, há apenas um servidor Eureka, então precisamos definir e falso para que ele não tente se registrar consigo mesmo, pois o servidor Eureka também tem um cliente Eureka embutido.eureka.client.fetch-registryeureka.client.register-with-eureka
