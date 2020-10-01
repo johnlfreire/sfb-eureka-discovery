@@ -14,3 +14,7 @@ pode buscar os detalhes de outras instâncias de Eureka também.
 - Uma instância de Eureka também é um cliente Eureka, pois busca o registro do servidor Eureka contendo os detalhes de outras instâncias. Para habilitá-lo, é definido como verdadeiro (por padrão, verdadeiro). Assim que um serviço se registra com o servidor, ele busca o registro e o pega. Ele continua verificando o registro em intervalo regular (por padrão, 30 segundos) e se houver alguma alteração no registro, ele busca apenas a atualização e a parte inalterada ainda é usada a partir do cache.eureka.client.fetch-registry
 
 - Cada instância de Eureka usa um ponto final de serviço, a fim de obter uma lista de todas as instâncias dos serviços registrados no registro. Também podemos ver todas as instâncias registradas em Discovery Client Service Instance http://localhost:5555/eureka/app
+
+<pre>
+JJD
+</pre>
